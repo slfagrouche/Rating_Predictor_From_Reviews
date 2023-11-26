@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product Ratings Prediction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center p-4">
+        Amazon Product Ratings Prediction
+    </header>
+
+    <section id="product-prediction" class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2>Predict Product Ratings</h2>
+                <form id="productPredictionForm">
+                    <div class="form-group">
+                        <label for="productTitle">Product Title:</label>
+                        <input type="text" class="form-control" id="productTitle" placeholder="Enter product title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="productDescription">Product Description:</label>
+                        <textarea class="form-control" id="productDescription" placeholder="Enter product description" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="productPrice">Product Price:</label>
+                        <input type="number" class="form-control" id="productPrice" placeholder="Enter product price" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Predict</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="predictionResult" class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2>Prediction Result</h2>
+                <div id="resultContainer" class="text-center"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

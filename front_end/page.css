@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-weight: bold;
+}
+
+#product-prediction {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#productPredictionForm {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#predictionResult {
+    display: none;
+    padding: 40px 0;
+}

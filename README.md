@@ -45,6 +45,6 @@ Vectorization transformed text data into numeric matrices using Bag of Words (BO
 A DNN was implemented using BOW and trained word embedding vectorization techniques. The model included hidden layers, an Adam optimizer, categorical cross-entropy loss function, and softmax activation. DNNs exhibited high training accuracy (92–95%) with modest overall accuracy (~90%).
 
 ## Conclusion
-The project provided valuable insights into Neural Net architectures, NLP techniques, and challenges in predicting user ratings from review comments. Further exploration could address overfitting concerns, imbalanced datasets, and incorporate additional features for improved predictive accuracy. The versatility of the developed models allows adaptation to diverse Amazon product categories beyond digital music albums.
+The project provided valuable insights into Neural Net architectures, NLP techniques, and challenges in predicting user ratings from review comments. Further exploration could address overfitting concerns, imbalanced datasets, and incorporate additional features for improved predictive accuracy. The versatility of the developed models allows adaptation to diverse Amazon product categories.
 
 

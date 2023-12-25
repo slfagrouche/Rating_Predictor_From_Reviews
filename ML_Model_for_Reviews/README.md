@@ -1,7 +1,7 @@
 # ML Model for Amazon Reviews
 This repository contains a machine learning model for sentiment analysis on Amazon reviews.
 
-## Cloning the Model
+## Cloning the Model 
 
 Due to the presence of large files, it's recommended to use Git LFS for cloning the repository. Follow the steps below:
 ```bash
@@ -11,6 +11,7 @@ git lfs install
 # Step 1: Clone the Repository
 git clone https://huggingface.co/spaces/holdandup/reviewamazon
 ```
+Author: @holdandup
 
 ### Step 2: Replace the App.py File
 
